@@ -1,0 +1,16 @@
+{
+  "name": "svgator-custom-player",
+  "version": "3.0.0",
+  "description": "Replace Svgator embedded player inside SVG files with a custom, feature-detected player (v3).",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "svgator-custom": "bin/svgator-custom"
+  },
+  "scripts": {
+    "svgator-custom": "node src/index.js"
+  },
+  "optionalDependencies": {
+    "terser": "^5.31.6"
+  }
+}
